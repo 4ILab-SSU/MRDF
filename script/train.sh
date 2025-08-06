@@ -1,5 +1,5 @@
 # train MRDF_CE
-CUDA_VISIBLE_DEVICES=0 python train.py \
+CUDA_VISIBLE_DEVICES=3 python train.py \
   --model_type MRDF_CE --save_name MRDF_CE \
   --data_root ./data/FakeAVCeleb_v1.2/ \
   --dataset fakeavceleb
